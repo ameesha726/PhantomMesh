@@ -140,6 +140,38 @@ phantommesh/
 ├── sync_engine/     # Synchronization layer
 └── README.md
 ```
+# 📦 Install Dependencies
+
+## Dashboard Dependencies
+
+After cloning the repository:
+
+```bash
+cd dashboard
+npm install
+```
+
+This will install:
+- Next.js
+- React
+- TailwindCSS
+- TypeScript
+
+---
+
+## Python Dependencies
+
+Install required Python packages:
+
+```bash
+pip install fastapi uvicorn requests playwright
+```
+
+Install Playwright browser binaries:
+
+```bash
+playwright install
+```
 
 ---
 
