@@ -25,15 +25,24 @@ PhantomMesh solves this by introducing a non-invasive observability layer.
 
 # 🧠 Core Idea
 
-PhantomMesh behaves like a digital observer.
+Instead of deeply integrating into systems, PhantomMesh behaves like a digital observer. It watches systems the same way a human officer would — by observing their interfaces, detecting changes, and understanding what changed.
 
-It:
-- watches system interfaces
-- detects meaningful changes
-- converts them into structured events
-- synchronizes updates across systems using UBID
+PhantomMesh:
 
-No backend integration is required.
+watches system interfaces
+detects changes
+understands state transitions
+emits structured events
+synchronizes systems
+
+WITHOUT:
+
+APIs
+DB access
+modifying systems
+installing hooks
+
+That is your innovation.
 
 ---
 
