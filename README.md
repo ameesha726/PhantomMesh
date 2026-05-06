@@ -37,10 +37,7 @@ synchronizes systems
 
 WITHOUT:
 
-APIs
-DB access
-modifying systems
-installing hooks
+APIs, DB access, modifying systems and installing hooks
 
 That is your innovation.
 
