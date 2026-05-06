@@ -29,15 +29,18 @@ Instead of deeply integrating into systems, PhantomMesh behaves like a digital o
 
 PhantomMesh:
 
-watches system interfaces
-detects changes
-understands state transitions
-emits structured events
-synchronizes systems
+- watches system interfaces
+- detects changes
+- understands state transitions
+- emits structured events
+- synchronizes systems
 
 WITHOUT:
 
-APIs, DB access, modifying systems and installing hooks
+- APIs
+- DB access
+- modifying systems 
+- installing hooks
 
 That is your innovation.
 
